@@ -1,0 +1,354 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.description {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.hero-section {
+    height: 700px;
+    background-image: url("assets/images/hero-background-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-heading {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 0%;
+}
+
+.hero-text {
+    font-size: 22px;
+    font-weight: 400;
+    color: #E8E8E8;
+    line-height: 1.5;
+}
+
+.donate-now-btn {
+    width: auto;
+    background: none;
+    border: none;
+}
+
+.donate-now-btn a {
+    height: auto;
+    background: #08b162;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+
+.donate-today-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-today-container {
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#pere-width {
+    width: 50%;
+    margin: auto;
+}
+
+.donate-amount {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    height: 90px;
+    width: 100px;
+    margin: 10px;
+    background: #FAFAFA;
+    color: #707070;
+    border-radius: 4px;
+    padding-top: 33px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.tk200 {
+    background: rgba(9, 163, 130, 0.35);
+    ;
+    border: 2px solid #08b162;
+}
+
+.donate-form-box {
+    padding: 40px 0;
+}
+
+.donate-form-box input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.donate-form-box input:focus {
+    outline-width: 0;
+}
+
+
+
+
+.our-donate-plan-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px 10%;
+}
+
+.our-donate-plan-content {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.donate-plans {
+    display: flex;
+    padding: 30px 0;
+}
+
+.donate-plans h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0 10px 0;
+
+}
+
+.donate-plan {
+    height: 280px;
+    width: 280px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 50px 20px
+}
+
+.one {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.two {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.three {
+    background: #FFF4D6;
+}
+
+.donate-plans h4 {
+    font-weight: 600;
+}
+
+.donate-plans p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+
+
+.how-to-contribute-section {
+    height: auto;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.how-to-contribute-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.how-to-contribute-img {
+    padding-left: 20px;
+}
+
+.how-to-contribute-img img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.how-to-contribute-heading {
+    padding: 15px 0;
+}
+
+
+.how-to-contribute-btn {
+    width: auto;
+    background: none;
+    border: none;
+}
+
+.how-to-contribute-btn a {
+    height: auto;
+    background: #08b162;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+.extra-gallery-section {
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.extra-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-heading {
+    text-align: center;
+}
+
+.gallery-img {
+    width: 31%;
+    margin: 2px;
+}
+
+.newsletter-section {
+    width: 60%;
+    margin: auto;
+    padding: 30px 0px;
+    height: auto;
+}
+
+.newsletter-container {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.newsletter-form-box {
+    margin: 20px 0;
+    height: 150px;
+    width: 100%;
+    background: rgba(79, 157, 166, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.newsletter-form {
+    width: 80%;
+}
+
+.newsletter-form .newsletter-form-email {
+    height: 40px;
+    width: 70%;
+    padding: 0 10px;
+    font-family: "Montserrat";
+    border: 2px solid #08b162;
+    border-radius: 3px
+}
+
+.newsletter-form .newsletter-form-submit-btn {
+    height: 40px;
+    width: 25%;
+    background: #08b162;
+    border: 2px solid #08b162;
+    border-radius: 3px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+
+
+.footer-section {
+    height: auto;
+    background: #06283D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .footer-heading {
+    font-family: 'Bebas Neue', cursive;
+    color: #08b162;
+    font-size: 50px;
+    margin: 0%;
+}
+
+.footer-container p {
+    color: #f8f8f8;
+}
